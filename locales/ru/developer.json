@@ -1,0 +1,183 @@
+{
+  "tabs/server": "Локальный сервер",
+  "tabs/extensions": "LM Runtimes",
+  "loadSettings/title": "Загрузить настройки",
+  "modelSettings/placeholder": "Выбрать модель для настройки",
+  "loadedModels/noModels": "Нет загруженных моделей",
+  "serverOptions/title": "Настройки сервера",
+  "serverOptions/configurableTitle": "Настраиваемые параметры",
+  "serverOptions/port/hint": "Укажите порт, который будет использоваться локальным сервером. По умолчанию LM Studio использует порт 1234. Возможно, вам потребуется изменить его, если этот порт уже используется.",
+  "serverOptions/port/subtitle": "Порт для прослушивания",
+  "serverOptions/autostart/title": "Автозапуск сервера",
+  "serverOptions/autostart/hint": "Включите автоматический запуск локального сервера LLM LM Studio при запуске приложения или службы.",
+  "serverOptions/port/integerWarning": "Номер порта должен быть целым числом",
+  "serverOptions/port/invalidPortWarning": "Порт должен находиться в диапазоне от 1 до 65535",
+  "serverOptions/cors/title": "Включить CORS",
+  "serverOptions/cors/hint1": "Включение CORS (Cross-origin Resource Sharing) позволит сайтам, которые вы посещаете, отправлять запросы на сервер LM Studio.",
+  "serverOptions/cors/hint2": "CORS может потребоваться при выполнении запросов с веб-страницы или VS Code / других расширений.",
+  "serverOptions/cors/subtitle": "Разрешить межсайтовые запросы",
+  "serverOptions/network/title": "Обслуживание по локальной сети",
+  "serverOptions/network/subtitle": "Опубликовать сервер в сети",
+  "serverOptions/network/hint1": "Включить ли разрешены подключения с других устройств в сети.",
+  "serverOptions/network/hint2": "Если не отмечено, сервер будет прослушивать только localhost.",
+  "serverOptions/verboseLogging/title": "Подробное логирование",
+  "serverOptions/verboseLogging/subtitle": "Включить подробное логирование для локального сервера",
+  "serverOptions/contentLogging/title": "Логировать запросы и ответы",
+  "serverOptions/contentLogging/subtitle": "Настройки ведения журнала запросов / ответов локального сервера",
+  "serverOptions/contentLogging/hint": "Включить или нет логирование запросов и/или ответов в журнале логов локального сервера.",
+  "serverOptions/fileLoggingMode/title": "Режим ведения логирования файлов",
+  "serverOptions/fileLoggingMode/off/title": "ОТКЛЮЧЕНО",
+  "serverOptions/fileLoggingMode/off/hint": "Не создавать файлы логов",
+  "serverOptions/fileLoggingMode/succinct/title": "Сжимать",
+  "serverOptions/fileLoggingMode/succinct/hint": "Логировать то же, что и в консоли. Длинные запросы будут обрезаны.",
+  "serverOptions/fileLoggingMode/full/title": "Полное",
+  "serverOptions/fileLoggingMode/full/hint": "Не обрезать длинные запросы.",
+  "serverOptions/jitModelLoading/title": "Загрузка модели по требованию",
+  "serverOptions/jitModelLoading/hint": "При включении, если запрос указал модель, которая не загружена, она будет автоматически загружена и использована. Кроме того, конечная точка '/v1/models' также будет включать модели, которые еще не загружены.",
+  "serverOptions/loadModel/error": "Не удалось загрузить модель",
+  "serverOptions/jitModelLoadingTTL/title": "Автоматическая разгрузка неиспользуемых моделей JIT",
+  "serverOptions/jitModelLoadingTTL/hint": "Модель, которая была загружена Just-in-time (JIT) для обслуживания API-запроса, будет автоматически разгружена после того, как она не использовалась в течение определенного периода времени (TTL).",
+  "serverOptions/jitModelLoadingTTL/ttl/label": "Максимальное время простоя TTL",
+  "serverOptions/jitModelLoadingTTL/ttl/unit": "минуты",
+  "serverOptions/unloadPreviousJITModelOnLoad/title": "Сохранять только последнюю загруженную модель JIT",
+  "serverOptions/unloadPreviousJITModelOnLoad/hint": "Убедитесь, что одновременно загружена не более одной модели через JIT (разгружается предыдущая модель)",
+  "serverLogs/scrollToBottom": "Перейти в конец",
+  "serverLogs/clearLogs": "Очистить логи ({{shortcut}})",
+  "serverLogs/openLogsFolder": "Открыть папку с логами сервера",
+  "runtimeSettings/title": "Настройки Runtime",
+  "runtimeSettings/chooseRuntime/title": "По умолчанию",
+  "runtimeSettings/chooseRuntime/description": "Выберите предустановленный runtime для каждого формата модели",
+  "runtimeSettings/chooseRuntime/showAllVersions/label": "Показать все runtimes",
+  "runtimeSettings/chooseRuntime/showAllVersions/hint": "По умолчанию LM Studio показывает только последнюю версию каждого совместимого runtime. Включите этоот параметр, чтобы увидеть все доступные runtimes.",
+  "runtimeSettings/chooseRuntime/select/placeholder": "Выбрать Runtime",
+  "runtimeOptions/uninstall": "Удалить",
+  "runtimeOptions/uninstallDialog/title": "Удалить {{runtimeName}}?",
+  "runtimeOptions/uninstallDialog/body": "Удаление этого runtime удалит его из системы. Это действие необратимо.",
+  "runtimeOptions/uninstallDialog/body/caveats": "Некоторые файлы могут быть удалены только после перезапуска LM Studio.",
+  "runtimeOptions/uninstallDialog/error": "Не удалось удалить runtime",
+  "runtimeOptions/uninstallDialog/confirm": "Продолжить и удалить",
+  "runtimeOptions/uninstallDialog/cancel": "Отмена",
+  "runtimeOptions/noCompatibleRuntimes": "Не найдено совместимых runtimes",
+  "runtimeOptions/downloadIncompatibleRuntime": "Этот runtime был определён как несовместимый с вашим устройством. Скорее всего, он не будет работать.",
+  "runtimeOptions/noRuntimes": "Нет runtimes",
+  "runtimes": {
+    "manageLMRuntimes": "Управление LM Runtimes",
+    "includeOlderRuntimeVersions": "Включить старые версии runtime",
+    "dismiss": "Отмена",
+    "updateAvailableToast": {
+      "title": "Доступно обновление LM Runtime!"
+    },
+    "updatedToast": {
+      "title": " ✅ LM Runtime обновлен: {{runtime}} → v{{version}}",
+      "preferencesUpdated": "Новые загруженные модели с {{compatibilityTypes}} будут использовать обновленный runtime."
+    },
+    "noAvx2ErrorMessage": "Все LM Runtimes требуют процессора с AVX2",
+    "downloadableRuntimes": {
+      "runtimeExtensionPacks": "Пакеты расширений runtime",
+      "refresh": "Обновить",
+      "refreshing": "Загрузка...",
+      "filterSegment": {
+        "compatibleOnly": "Только совместимые",
+        "all": "Все"
+      },
+      "card": {
+        "releaseNotes": "Примечания к выпуску",
+        "latestVersionInstalled": "Установлена последняя версия",
+        "updateAvailable": "Доступно обновление"
+      }
+    },
+    "installedRuntimes": {
+      "manage": {
+        "title": "Управление активными runtime"
+      },
+      "dropdownOptions": {
+        "installedVersions": "Управление версиями",
+        "close": "Закрыть"
+      },
+      "tabs": {
+        "all": "Все",
+        "frameworks": "Мои фреймворки",
+        "engines": "Мои движки"
+      },
+      "detailsModal": {
+        "installedVersions": "Установленные версии для {{runtimeName}}",
+        "manifestJsonTitle": "Manifest JSON (продвинутый)",
+        "releaseNotesTitle": "Примечания к выпуску",
+        "noReleaseNotes": "Нет доступных примечаний к выпуску для этой версии",
+        "back": "Назад",
+        "close": "Закрыть"
+      },
+      "noEngines": "Нет установленных движков",
+      "noFrameworks": "Нет установленных фреймворков"
+    }
+  },
+  "inferenceParams/noParams": "Параметры инференса не доступны для данного типа модели",
+  "quickDocs": {
+    "tabChipTitle": "Быстрые справки",
+    "newToolUsePopover": "Кодовые фрагменты теперь доступны здесь в \"Быстрых справках\". Нажмите здесь, чтобы начать использовать инструменты!",
+    "newToolUsePopoverTitle": "📚 Быстрые справки",
+    "learnMore": "ℹ️ 👾 Чтобы узнать больше о конечных точках локального сервера LM Studio, посетите [документацию](https://lmstudio.ai/docs).",
+    "helloWorld": {
+      "title": "Привет, Мир!"
+    },
+    "chat": {
+      "title": "Чат"
+    },
+    "structuredOutput": {
+      "title": "Структурированный вывод"
+    },
+    "imageInput": {
+      "title": "Ввод изображений"
+    },
+    "embeddings": {
+      "title": "Векторные представления"
+    },
+    "toolUse": {
+      "title": "Использование инструментов",
+      "tab": {
+        "saveAsPythonFile": "Сохранить как файл Python",
+        "runTheScript": "Запустить скрипт:",
+        "savePythonFileCopyPaste": "Сохранить как файл Python для команды копирования и вставки"
+      }
+    },
+    "newBadge": "Новый"
+  },
+  "endpoints/openaiCompatRest/title": "Поддерживаемые эндпоинты{{extra}}",
+  "endpoints/openaiCompatRest/getModels": "Список загруженных моделей",
+  "endpoints/openaiCompatRest/postCompletions": "Режим завершения текста. Предсказание следующего токена(ов) на основе запроса. Обратите внимание: OpenAI считает этот конечный пункт 'устаревшим'.",
+  "endpoints/openaiCompatRest/postChatCompletions": "Завершения чата. Отправка истории чата модели для предсказания следующего ответа ассистента",
+  "endpoints/openaiCompatRest/postEmbeddings": "Векторное представление текста. Генерация векторных представлений текста на основе заданного текстового ввода. Принимает строку или массив строк.",
+  "model.createVirtualModelFromInstance": "Сохранить настройки как новую виртуальную модель",
+  "model.createVirtualModelFromInstance/error": "Не удалось сохранить настройки в качестве новой виртуальной модели",
+  "model": {
+    "toolUseSectionTitle": "Использование инструментов",
+    "toolUseDescription": "Обнаружено, что эта модель обучена для использования инструментов\n\nОткройте <custom-link>quick docs</custom-link> для получения дополнительной информации"
+  },
+  "apiConfigOptions/title": "Настройки API",
+  "serverOptions/redactContent/title": "Скрывать содержимое в журнале",
+  "serverOptions/redactContent/hint": "Не записывать в журнал конфиденциальные данные, в том числе содержимое запросов и ответов.",
+  "serverOptions/logIncomingTokens/title": "Записывать токены в журнал",
+  "serverOptions/logIncomingTokens/hint": "Записывать каждый токен в журнал по мере генерации.",
+  "serverOptions/allowMcp/title": "Разрешить удалённые MCP",
+  "serverOptions/allowMcp/hint": "Разрешить MCP-серверы, не указанные в mcp.json. Соединения существуют только во время запроса. Сейчас поддерживаются только удалённые MCP-серверы.",
+  "serverOptions/allowMcp/mode/off": "Выключено",
+  "serverOptions/allowMcp/mode/off/hint": "Запретить использование MCP в запросах к серверу",
+  "serverOptions/allowMcp/mode/remote": "Удалённые",
+  "serverOptions/allowMcp/mode/remote/hint": "Разрешить соединения с удалёнными MCP-серверами",
+  "serverOptions/start/error": "Не удалось запустить сервер",
+  "serverOptions/stop/error": "Не удалось остановить сервер",
+  "runtimeSettings/chooseFrameworks/title": "Компоненты",
+  "runtimeSettings/chooseFrameworks/description": "Выберите компонент для каждой функции",
+  "runtimeSettings/chooseFramework/documentParser/builtIn/label": "Встроенный обработчик",
+  "runtimeSettings/chooseFramework/documentParser/select/label": "Обработчик документов",
+  "runtimeSettings/chooseFramework/documentParser/select/placeholder": "Выберите обработчик документов",
+  "endpoints/openaiCompatRest/segmentedLabel": "Совместимый с OpenAI",
+  "endpoints/openaiCompatRest/postResponses": "Расширенный интерфейс генерации ответов. Для сохранения состояния диалога передавайте идентификатор предыдущего ответа в следующий запрос.",
+  "endpoints/lmStudioRest/segmentedLabel": "LM Studio",
+  "endpoints/lmStudioRestV1/getModels": "Список доступных моделей",
+  "endpoints/lmStudioRestV1/postModelsLoad": "Загрузить модель с заданными параметрами",
+  "endpoints/lmStudioRestV1/postModelsDownload": "Скачать модель",
+  "endpoints/lmStudioRestV1/postChat": "Чат с моделью. Поддерживает многошаговые диалоги с сохранением состояния и MCP",
+  "endpoints/lmStudioRestV1/getModelsDownloadStatus": "Получить статус скачивания модели",
+  "endpoints/anthropicCompatRest/segmentedLabel": "Совместимый с Anthropic"
+}

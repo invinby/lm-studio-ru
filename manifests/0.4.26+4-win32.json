@@ -1,0 +1,2864 @@
+{
+  "version": "0.4.26+4",
+  "patchVersion": "1.0.0",
+  "platform": "win32",
+  "bundle": ".webpack/renderer/main_window.js",
+  "sha256": "2a01446f852812338a204adb539bf6e00689faaf61f664f1e38bd13ed6d3adfe",
+  "enModules": {
+    "sidebar": 39224,
+    "chat": 69394,
+    "config": 66643,
+    "discover": 50551,
+    "developer": 92276,
+    "download": 49568,
+    "settings": 26534,
+    "models": 36882,
+    "onboarding": 81073,
+    "shared": 11353
+  },
+  "ruModules": {
+    "sidebar": 95728,
+    "chat": 51187,
+    "config": 10402,
+    "discover": 41692,
+    "developer": 14151,
+    "download": 52155,
+    "settings": 31687,
+    "models": 41906,
+    "onboarding": 48135
+  },
+  "sharedAnchor": "const mo={sidebar:Bt.default,chat:yt.default,config:kt.default,discover:zt.default,developer:Ht.default,download:_t.default,settings:At.default,models:Vt.default,onboarding:St.default,shared:void 0};",
+  "sharedReplacementPrefix": "const mo={sidebar:Bt.default,chat:yt.default,config:kt.default,discover:zt.default,developer:Ht.default,download:_t.default,settings:At.default,models:Vt.default,onboarding:St.default,shared:",
+  "sharedReplacementSuffix": "};",
+  "i18nAnchor": "const l=r.default;e.default=l},63820:",
+  "i18nReplacement": "const l=r.default;globalThis.__lmStudioRuI18n=l;globalThis.__lmStudioRuUseTranslation=i.useTranslation;e.default=l},63820:",
+  "dateAnchor": "catch{return\"Unknown\"}},e.formatDuration=",
+  "dateReplacement": "catch{return\"Unknown\"}},e.formatDate=globalThis.__lmStudioRuWrapDate(e.formatDate),e.formatDuration=",
+  "reactiveEdits": [
+    {
+      "start": 28689018,
+      "original": "[t,e]",
+      "replacement": "[t,e,globalThis.__lmStudioRuI18n?.language]"
+    },
+    {
+      "start": 28688747,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28683625,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28681727,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28671690,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28671169,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28669927,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28668522,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28613165,
+      "original": "[b,D,pt]",
+      "replacement": "[b,D,pt,globalThis.__lmStudioRuI18n?.language]"
+    },
+    {
+      "start": 28611144,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28609631,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28606724,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28605360,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28601612,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28599542,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28584912,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28579118,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28567737,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28561653,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28560774,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28553025,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28551505,
+      "original": "[I,E,N,y,z,T]",
+      "replacement": "[I,E,N,y,z,T,globalThis.__lmStudioRuI18n?.language]"
+    },
+    {
+      "start": 28550051,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28546505,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28545290,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28529808,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28525047,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28523438,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28521534,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28518757,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28513037,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28511496,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28507741,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28506346,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28504884,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28503839,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28502583,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28499147,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28497702,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28497159,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28495655,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28495146,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28494203,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28490533,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28489855,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28489396,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28489090,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28488037,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28484987,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28484224,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28483909,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28482109,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28481723,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28479932,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28479495,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28478330,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28477795,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28477021,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28476193,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28474508,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28472649,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28469386,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28468492,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28468032,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28466705,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28465534,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28464552,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28463986,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28463100,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28461297,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28456973,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28456008,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28455284,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28454522,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28454196,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28452756,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28447442,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28446313,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28445454,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28444472,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28443149,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28442184,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28440992,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28440001,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28439203,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28438526,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28437776,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28435167,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28433274,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28427073,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28425335,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28422185,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28418844,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28411102,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28392874,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28390839,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28388888,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28386540,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28379958,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28378475,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28375579,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28374044,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28364728,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28360918,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28357651,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28355055,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28352342,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28351982,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28349093,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28338617,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28336063,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28333342,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28326359,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28322733,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28318716,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28314505,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28310258,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28309066,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28308679,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28307435,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28304189,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28298856,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28296069,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28291406,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28286916,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28271709,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28264400,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28262913,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28261457,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28255842,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28244995,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28236887,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28234987,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28230687,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28229306,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28226861,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28222692,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28221830,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28220449,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28219259,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28218809,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28217938,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28216583,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28215899,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28213272,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28211318,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28205716,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28202964,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28200724,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28199224,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28196953,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28195539,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28194838,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28194424,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28191680,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28188954,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28187095,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28185419,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28183701,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28181022,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28177059,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28176629,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28174357,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28173617,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28171747,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28170353,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28157934,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28149615,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28135335,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28134917,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28132059,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28131363,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28128839,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28127568,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28125983,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28124296,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28123003,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28121549,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28120494,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28109478,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28108235,
+      "original": "[t]",
+      "replacement": "[t,globalThis.__lmStudioRuI18n?.language]"
+    },
+    {
+      "start": 28106729,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28105616,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28101564,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28098707,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28097481,
+      "original": "[]",
+      "replacement": "[globalThis.__lmStudioRuI18n?.language]"
+    },
+    {
+      "start": 28096440,
+      "original": "[\"macLinux\",m]",
+      "replacement": "[\"macLinux\",m,globalThis.__lmStudioRuI18n?.language]"
+    },
+    {
+      "start": 28095196,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28093355,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28089604,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28088301,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28085753,
+      "original": "[]",
+      "replacement": "[globalThis.__lmStudioRuI18n?.language]"
+    },
+    {
+      "start": 28084815,
+      "original": "[d]",
+      "replacement": "[d,globalThis.__lmStudioRuI18n?.language]"
+    },
+    {
+      "start": 28083775,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28082494,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28078352,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28076389,
+      "original": "[]",
+      "replacement": "[globalThis.__lmStudioRuI18n?.language]"
+    },
+    {
+      "start": 28075309,
+      "original": "[m]",
+      "replacement": "[m,globalThis.__lmStudioRuI18n?.language]"
+    },
+    {
+      "start": 28074364,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28072445,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28065337,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28060732,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28059090,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28058165,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28056731,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28052624,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28051926,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28048662,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28045240,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28044428,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28043789,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28043262,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28042201,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28041407,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28035542,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28032070,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28030622,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28026920,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28026122,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28022582,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28021488,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28017558,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28017002,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28016656,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28015407,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28014256,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28009111,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28004910,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 28003524,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27998904,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27996363,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27995696,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27994908,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27992707,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27990417,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27989660,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27983172,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27978102,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27971080,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27969891,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27966452,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27962020,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27961414,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27961022,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27958788,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27958022,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27957232,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27955412,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27953899,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27949497,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27948728,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27946857,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27943186,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27935559,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27933345,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27930741,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27926022,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27925283,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27921361,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27916966,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27900441,
+      "original": "[ot,kt,e,at.actions,at.arch,at.capabilities,at.dateModified,at.defaultIdentifier,at.device,at.format,at.name,at.params,at.pinned,at.publisher,at.quant,at.size,y]",
+      "replacement": "[ot,kt,e,at.actions,at.arch,at.capabilities,at.dateModified,at.defaultIdentifier,at.device,at.format,at.name,at.params,at.pinned,at.publisher,at.quant,at.size,y,globalThis.__lmStudioRuI18n?.language]"
+    },
+    {
+      "start": 27890623,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27886978,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27877976,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27875902,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27873200,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27872400,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27867127,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27865487,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27865325,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27861206,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27860591,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27859245,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27855609,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27849865,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27849000,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27844483,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27844173,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27843900,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27843112,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27842401,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27829733,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27817119,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27812974,
+      "original": "[a,t]",
+      "replacement": "[a,t,globalThis.__lmStudioRuI18n?.language]"
+    },
+    {
+      "start": 27812642,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27807173,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27787962,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27774615,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27763829,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27738811,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27731891,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27709587,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27707937,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27705953,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27698065,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27693063,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27691118,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27689476,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27687786,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27684077,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27681434,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27680268,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27658241,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27654264,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27647298,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27644419,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27643253,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27640129,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27632443,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27612188,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27611294,
+      "original": "[x,f,o,y,i]",
+      "replacement": "[x,f,o,y,i,globalThis.__lmStudioRuI18n?.language]"
+    },
+    {
+      "start": 27610788,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27601295,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27594454,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27593687,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27588964,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27586465,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27584099,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27582156,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27579558,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27576947,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27574701,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27572763,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27572127,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27570649,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27569827,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27567150,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27562915,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27559002,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27558432,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27555215,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27553480,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27551856,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27550196,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27549342,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27547872,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27544628,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27538123,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27537391,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27535722,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27533908,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27529694,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27528466,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27526364,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27525024,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27523505,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27520288,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27516667,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27513468,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27510978,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27498466,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27495304,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27491465,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27485447,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27480271,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27477438,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27476045,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27443279,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27440435,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27438029,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27427392,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27424078,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27418844,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27410913,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27399515,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27388652,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27384488,
+      "original": "[E,N,K,q,G,v]",
+      "replacement": "[E,N,K,q,G,v,globalThis.__lmStudioRuI18n?.language]"
+    },
+    {
+      "start": 27382063,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27373033,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27362159,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27354669,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27350138,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27348118,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27347061,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27339722,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27337820,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27329335,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27302426,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27301546,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27299018,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27297133,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27268557,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27267928,
+      "original": "[V,I,T,a,A,P,E,Z,e,B,S,t]",
+      "replacement": "[V,I,T,a,A,P,E,Z,e,B,S,t,globalThis.__lmStudioRuI18n?.language]"
+    },
+    {
+      "start": 27264868,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27263312,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27257309,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27252302,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27249648,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27247419,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27240096,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27233993,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27223298,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27222242,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27216669,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27208092,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27205935,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27204444,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27181423,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27176826,
+      "original": "[w,x]",
+      "replacement": "[w,x,globalThis.__lmStudioRuI18n?.language]"
+    },
+    {
+      "start": 27175429,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27171095,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27147965,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27146480,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27145907,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27145236,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27144027,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27132956,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27130497,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27128145,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27126182,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27123582,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27120652,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27106971,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27101123,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27100252,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27097467,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27096535,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27094913,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27093409,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27090419,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27080193,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27079430,
+      "original": "[M,f.acceptedDraftTokensCount,f.predictedTokensCount,f.stopReason,f.timeToFirstTokenSec,f.tokensPerSecond,g]",
+      "replacement": "[M,f.acceptedDraftTokensCount,f.predictedTokensCount,f.stopReason,f.timeToFirstTokenSec,f.tokensPerSecond,g,globalThis.__lmStudioRuI18n?.language]"
+    },
+    {
+      "start": 27077699,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27074895,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27071739,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27051575,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27048014,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27043496,
+      "original": "[k,y,L,w]",
+      "replacement": "[k,y,L,w,globalThis.__lmStudioRuI18n?.language]"
+    },
+    {
+      "start": 27042339,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27034273,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27010712,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27003374,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 27000205,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26995941,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26990780,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26980941,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26969223,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26963377,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26953705,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26952748,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26948894,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26945344,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26944121,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26932355,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26931320,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26930181,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26927961,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26927223,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26923943,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26912917,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26910611,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26908718,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26907755,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26898810,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26893337,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26886077,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26884921,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26875393,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26870649,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26868974,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26867928,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26865657,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26862142,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26858302,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26855947,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26852951,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26849033,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26848725,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26845669,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26840862,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26839275,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26836065,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26835529,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26834702,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26832570,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26829751,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26821927,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26810707,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26799662,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26796654,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26795429,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26793189,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26789470,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26785462,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26776944,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26758120,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26750302,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26749066,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26745814,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26745273,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26741915,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26741436,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26738237,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26736679,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26732272,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26729672,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26714873,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26650472,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26632658,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26514531,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26489756,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26487887,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26485737,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26485110,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26477110,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26476002,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26475310,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26473240,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26468858,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26468074,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26439601,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26434584,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26413058,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26411859,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26404318,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26396573,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26394054,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26392310,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26391942,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26390550,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26388271,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26386256,
+      "original": "[w]",
+      "replacement": "[w,globalThis.__lmStudioRuI18n?.language]"
+    },
+    {
+      "start": 26385096,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26383492,
+      "original": "[a]",
+      "replacement": "[a,globalThis.__lmStudioRuI18n?.language]"
+    },
+    {
+      "start": 26383222,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26381879,
+      "original": "[n,e]",
+      "replacement": "[n,e,globalThis.__lmStudioRuI18n?.language]"
+    },
+    {
+      "start": 26381511,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26377457,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26310204,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26246541,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26245416,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26222133,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26211885,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26204143,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26167529,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26165144,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26161513,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26146915,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26145382,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26139926,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26136869,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26133423,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26130718,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26125892,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26121721,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26112279,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26106318,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26097670,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26084625,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26073689,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26071020,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26069453,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26068509,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26065241,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26049719,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26047804,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26037754,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26024540,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26021846,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 26000333,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 25998472,
+      "original": "[t]",
+      "replacement": "[t,globalThis.__lmStudioRuI18n?.language]"
+    },
+    {
+      "start": 25996502,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 25992096,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 25986634,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    },
+    {
+      "start": 25981917,
+      "original": "",
+      "replacement": "globalThis.__lmStudioRuUseTranslation();"
+    }
+  ]
+}

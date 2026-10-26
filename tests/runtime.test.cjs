@@ -1,0 +1,7 @@
+const {test}=require('node:test');const assert=require('node:assert/strict');const vm=require('node:vm');
+let installRuntime;try{({installRuntime}=require('../lib/runtime.cjs'))}catch{}
+function setup(language){const sandbox={__lmStudioRuI18n:{language}};vm.runInNewContext('('+installRuntime.toString()+')({"Staff picks":"Подборка команды"})',sandbox);return sandbox}
+test('static translation only runs in Russian and preserves unknown/user text',()=>{const s=setup('ru');assert.equal(s.__lmStudioRuText('Staff picks'),'Подборка команды');assert.equal(s.__lmStudioRuText('user prompt'),'user prompt');s.__lmStudioRuI18n.language='en';assert.equal(s.__lmStudioRuText('Staff picks'),'Staff picks')});
+test('dates retain original behavior in English',()=>{const s=setup('en');assert.equal(s.__lmStudioRuWrapDate(()=> 'original')(new Date()),'original')});
+test('Russian relative dates use Russian plural forms and respect baseDate',()=>{const s=setup('ru');const format=s.__lmStudioRuWrapDate(()=> 'original');const baseDate=new Date('2026-10-26T12:00:00Z');for(const [days,expected] of [[1,'1 день назад'],[2,'2 дня назад'],[5,'5 дней назад'],[21,'21 день назад']])assert.equal(format(new Date(baseDate.getTime()-days*86400000),{baseDate,timeAgoOnly:true}),expected)});
+test('Russian absolute dates and invalid dates',()=>{const s=setup('ru');const format=s.__lmStudioRuWrapDate(()=> 'original');assert.match(format(new Date('2026-10-26'),{dateOnly:true}),/26 октября 2026/);assert.equal(format(new Date('invalid')),'Неизвестно')});

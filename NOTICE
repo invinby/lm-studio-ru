@@ -1,0 +1,17 @@
+LM Studio RU
+
+Contains localization resources from:
+  LM Studio localization — https://github.com/lmstudio-ai/localization
+  Licensed under the Apache License, Version 2.0.
+  Upstream reference commit: 7b46e45fb5aa20d6286d3268fdd3ae8c4b1aeb2a.
+
+The English resource schema targets LM Studio 0.4.26+4. Russian resources
+are modified: missing strings completed, a missing shared namespace added,
+and interpolation corrected. The patcher, runtime helpers, static phrase
+translations, tests and documentation are additions by this project.
+
+Original Russian localization contributors acknowledged by upstream:
+shelomitsky, mlatysh, Adjacentai, HostFly, MotyaDev, Autumn-Whisper, seropheem.
+
+LM Studio is a trademark of its respective owner. This project is an
+unofficial community localization and does not distribute LM Studio binaries.

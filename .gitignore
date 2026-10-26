@@ -1,0 +1,7 @@
+node_modules/
+*.tmp
+*.original
+*.zip
+.lm-studio-ru-backup/
+.lm-studio-ru-lock/
+coverage/

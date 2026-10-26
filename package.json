@@ -1,0 +1,15 @@
+{
+  "name": "lm-studio-ru",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Расширенная русская локализация LM Studio 0.4.26+4",
+  "license": "Apache-2.0",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "test": "node --test tests/*.test.cjs",
+    "validate": "node scripts/validate.cjs",
+    "status": "node patch.cjs status",
+    "install:ru": "node patch.cjs apply",
+    "restore": "node patch.cjs restore"
+  }
+}
