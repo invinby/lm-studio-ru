@@ -26,5 +26,6 @@
 - [x] Complete Russian resources and validate coverage/placeholders/markup.
 - [x] Write failing tests for version/hash refusal, apply, idempotence, rollback and tampering.
 - [x] Implement the dependency-free patcher and launchers; run tests and syntax checks.
-- [ ] Apply to local installation, inspect representative screens and record limits.
-- [ ] Document installation/rollback/coverage, create public repository and push reviewed sources.
+- [x] Apply to local installation; verify resources, syntax, real rollback and process startup; record limits.
+- [ ] Complete the visual screen-by-screen walkthrough (UI tool unavailable in this session).
+- [x] Document installation/rollback/coverage, create public repository and push reviewed sources.
